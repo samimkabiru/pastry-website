@@ -140,3 +140,15 @@ p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Badge */
+.badge {
+  padding: 0.2rem 2rem;
+  display: inline-block;
+  border-radius: 3rem;
+  text-wrap: nowrap;
+}
+
+.badge--primary {
+  background: #f4e8ec;
+}
