@@ -9,6 +9,7 @@
   --color-secondary: #f4e8ec;
   --color-accent: #f6f5fa;
   --color-text: #666064;
+  --color-icons: #844f90;
 }
 
 /* Typography */
@@ -108,4 +109,19 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/* Features cards */
+.card--features {
+  box-shadow: 0 0 10px var(--color-secondary);
+}
+
+.card--features__body {
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.card--features__tagline {
+  margin-bottom: 1rem;
 }
