@@ -68,9 +68,27 @@ p {
   display: inline-block;
   font-weight: 600;
   text-wrap: nowrap;
-  border: 2px solid #333;
   padding: 1rem 3rem;
-  color: hsl(233, 26%, 24%);
   text-transform: uppercase;
   letter-spacing: -0.5px;
+}
+
+.btn--primary {
+  border: 2px solid #333;
+  color: hsl(233, 26%, 24%);
+}
+
+/* Cards */
+.card {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__body {
+  padding: 1.5rem;
+  color: #f6f5fa;
 }
