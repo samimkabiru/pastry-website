@@ -80,8 +80,9 @@ p {
 
 /* Cards */
 .card {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   overflow: hidden;
+  margin: 1.5rem 0;
 }
 
 .card__image {
@@ -91,4 +92,20 @@ p {
 .card__body {
   padding: 1.5rem;
   color: #f6f5fa;
+  text-align: center;
+}
+
+/* Pastry cards */
+.card--pastry {
+  position: relative;
+  background: hsla(290, 32%, 54%, 1);
+}
+
+.card--pastry__body {
+  text-transform: uppercase;
+  background: hsla(290, 32%, 54%, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
