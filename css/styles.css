@@ -83,7 +83,6 @@ p {
 .card {
   border-radius: 1rem;
   overflow: hidden;
-  margin: 1.5rem 0;
 }
 
 .card__image {
@@ -124,4 +123,20 @@ p {
 
 .card--features__tagline {
   margin-bottom: 1rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
