@@ -3,6 +3,14 @@
 *::after {
   box-sizing: border-box;
 }
+
+:root {
+  --color-primary: #a365b0;
+  --color-secondary: #f4e8ec;
+  --color-accent: #f6f5fa;
+  --color-text: #666064;
+}
+
 /* Typography */
 html {
   font-size: 62.5%;
@@ -12,14 +20,14 @@ body {
   font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
-  color: hsl(233, 8%, 62%);
+  color: var(--color-text);
   letter-spacing: 0.6px;
 }
 
 h1,
 h2,
 h3 {
-  color: hsl(233, 26%, 24%);
+  color: var(--color-primary);
   line-height: 1;
   font-weight: 500;
   margin-top: 0;
