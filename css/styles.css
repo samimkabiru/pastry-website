@@ -161,3 +161,24 @@ a {
 .badge--primary {
   background: #f4e8ec;
 }
+
+/* Arrow Link */
+.arrow-link {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  color: #cd8adb;
+  transition: color 0.3s;
+}
+
+.arrow-link__image {
+  vertical-align: middle;
+  transition: margin-left 0.3s;
+}
+
+.arrow-link:hover {
+  color: var(--color-icons);
+}
+
+.arrow-link:hover .arrow-link__image {
+  margin-left: 0.6rem;
+}
