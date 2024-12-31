@@ -28,7 +28,7 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--color-primary);
+  color: #6d167d;
   line-height: 1;
   font-weight: 500;
   margin-top: 0;
@@ -78,14 +78,14 @@ a {
 }
 
 .btn--primary {
-  border: 2px solid var(--color-primary);
+  background: hsla(0, 0%, 100%, 0.9);
   color: var(--color-icons);
   box-shadow: 7px 7px var(--color-icons);
   transition: box-shadow 0.3s, color 0.3s;
 }
 
 .btn--primary:hover {
-  box-shadow: 0 0 var(--color-primary);
+  box-shadow: 0 0 #6d167d;
 }
 
 /* Cards */
@@ -187,10 +187,41 @@ a {
 .block {
   text-align: center;
   padding: 1.5rem;
-  border: 2px solid red;
 }
 
 .container {
-  max-width: 144rem;
+  max-width: 135rem;
   margin: 0 auto;
+}
+
+/* Hero Block */
+.block--hero {
+  background: url(/images/doughnuts.jpg);
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  height: 45rem;
+}
+
+.block--hero__body h1 {
+  color: #f9ddff;
+  text-transform: capitalize;
+}
+
+.block--hero__container {
+  max-width: 100rem;
+}
+
+.block--hero__btn {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 765px) {
+  .block--hero {
+    background: url(/images/doughnuts-cropped.jpg);
+    background-size: cover;
+    font-size: 2rem;
+  }
 }
