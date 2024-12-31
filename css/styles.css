@@ -197,6 +197,8 @@ a {
   background-size: cover;
   color: #ffffff;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   align-items: center;
   font-size: 1.8rem;
   height: 45rem;
@@ -327,6 +329,7 @@ th {
 
 .callout-container {
   padding: 0 6rem;
+  background: #fff1f6;
 }
 
 .callout {
@@ -347,4 +350,10 @@ th {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-items: center;
   }
+}
+
+.logo {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
 }
