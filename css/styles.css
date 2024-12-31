@@ -28,7 +28,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #6d167d;
+  color: #444849;
   line-height: 1;
   font-weight: 500;
   margin-top: 0;
@@ -120,21 +120,6 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-/* Features cards */
-.card--features {
-  box-shadow: 0 0 10px var(--color-secondary);
-}
-
-.card--features__body {
-  color: #000;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.card--features__tagline {
-  margin-bottom: 1rem;
 }
 
 /* Grid */
@@ -249,4 +234,43 @@ a {
 
 .block--pastry .arrow-link {
   margin-top: 2rem;
+}
+
+/* Prices Block */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 10px #c3cbcc;
+  padding: 1rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+th,
+td {
+  text-transform: capitalize;
+  border: 2px solid #c3cbcc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  font-size: 2rem;
+}
+
+.prices__link {
+  margin-top: 2rem;
+  color: #7b8385;
+  text-decoration: underline;
+}
+
+.prices__link:hover {
+  color: #4b5051;
+}
+
+.prices__varieties,
+.varieties-list {
+  text-align: left;
+  max-width: 75rem;
+  margin: 2rem auto 0;
 }
