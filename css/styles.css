@@ -95,7 +95,9 @@ a {
 }
 
 .card__image {
-  width: 100%;
+  width: 30rem;
+  height: 35rem;
+  object-fit: cover;
 }
 
 .card__body {
@@ -108,6 +110,7 @@ a {
 .card--pastry {
   position: relative;
   background: hsla(290, 32%, 54%, 1);
+  margin: 0 auto;
 }
 
 .card--pastry__body {
@@ -167,6 +170,7 @@ a {
   font-size: 1.9rem;
   text-transform: capitalize;
   color: #cd8adb;
+  display: inline-block;
   transition: color 0.3s;
 }
 
@@ -183,10 +187,18 @@ a {
   margin-left: 0.6rem;
 }
 
+.arrow-link__image-left {
+  transition: margin-right 0.3s;
+}
+
+.arrow-link:hover .arrow-link__image-left {
+  margin-right: 0.6rem;
+}
+
 /* Blocks */
 .block {
   text-align: center;
-  padding: 1.5rem;
+  padding: 3rem 1.5rem;
 }
 
 .container {
@@ -224,4 +236,17 @@ a {
     background-size: cover;
     font-size: 2rem;
   }
+}
+
+/* Pastries feature block */
+.block--pastry {
+  background: #f4e8ec;
+}
+
+.block--pastry__text {
+  margin-bottom: 2rem;
+}
+
+.block--pastry .arrow-link {
+  margin-top: 2rem;
 }
