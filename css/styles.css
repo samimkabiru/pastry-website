@@ -258,6 +258,10 @@ th {
   font-size: 2rem;
 }
 
+.block--prices {
+  background: #fff1f6;
+}
+
 .prices__link {
   margin-top: 2rem;
   color: #7b8385;
