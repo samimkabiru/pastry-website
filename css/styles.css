@@ -99,7 +99,7 @@ a {
 }
 
 .card__body {
-  padding: 1.5rem;
+  padding: 1.5rem 0.4rem;
   color: #f6f5fa;
   text-align: center;
 }
@@ -238,6 +238,10 @@ a {
 
 .block--pastry .arrow-link {
   margin-top: 2rem;
+}
+
+.pastry-section {
+  font-size: 1.1rem;
 }
 
 /* Prices Block */
