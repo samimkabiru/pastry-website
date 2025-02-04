@@ -147,6 +147,8 @@ a {
   display: inline-block;
   border-radius: 3rem;
   text-wrap: nowrap;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .badge--primary {
@@ -362,4 +364,14 @@ th {
   width: 7rem;
   height: 7rem;
   border-radius: 100%;
+}
+
+/* Lists */
+.list {
+  list-style-image: url(/images/tick.svg);
+  padding: 0;
+}
+
+.list-item {
+  margin-bottom: 1rem;
 }
