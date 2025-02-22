@@ -230,10 +230,6 @@ a {
 }
 
 /* Pastries feature block */
-.block--pastry {
-  background: #f4e8ec;
-}
-
 .block--pastry__text {
   margin-bottom: 2rem;
 }
@@ -408,6 +404,7 @@ th {
 
 .package__body {
   padding: 1rem 0;
+  /* background: #fff; */
 }
 
 /* Ramadan section */
@@ -434,8 +431,40 @@ th {
   margin-bottom: 1rem;
 }
 
+.btn--ramadan {
+  border-radius: 30px;
+  background: hsla(0, 0%, 100%, 0.9);
+  box-shadow: 0 0 8px var(--color-icons);
+  transition: box-shadow 0.3s;
+  margin: 1.5rem 0;
+}
+
+.btn--ramadan:hover {
+  box-shadow: 0 0 2.5px var(--color-icons);
+}
+
 @media screen and (min-width: 1024px) {
   .note {
     font-size: 2rem;
   }
+}
+
+/* Zakat block */
+.block--zakat {
+  background: #fff1f6;
+}
+
+.zakat__heading {
+  text-transform: capitalize;
+}
+
+.zakat__packages {
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.zakat__header {
+  max-width: 90rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
 }
